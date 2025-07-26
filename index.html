@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maryam Tarek - Portfolio</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="web-icon"></div>
+      <div class="sidebar">
+        <a href="#home" class="sidebar-item">
+          <i class="fas fa-home"></i>
+        </a>
+        <a href="#hobbies" class="sidebar-item">
+          <i class="fas fa-gamepad"></i>
+        </a>
+        <a href="#birthday" class="sidebar-item">
+          <i class="fas fa-birthday-cake"></i>
+        </a>
+        <a href="#contact" class="sidebar-item">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="#countries" class="sidebar-item">
+          <i class="fas fa-globe"></i>
+        </a>
+        <a href="#cv" class="sidebar-item">
+          <i class="fas fa-file-alt"></i>
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Section 1: Home -->
+      <section id="home" class="section">
+        <div class="home">
+          <div class="home-text">
+            <h1><span>M</span>aryam <span>T</span>arek</h1>
+            <h2>Backend Developer</h2>
+            <p>
+              Welcome to my portfolio! I'm a passionate backend developer with
+              expertise in building scalable web applications. I love creating
+              efficient solutions and exploring new technologies. Join me on
+              this journey through my skills, hobbies, and aspirations.
+            </p>
+            <a href="#cv" class="btn glow-effect">View My CV</a>
+          </div>
+          <div class="home-image">
+            <img src="images/fengli-lee-kagura.jpg" alt="Maryam Tarek" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2: Hobbies -->
+      <section id="hobbies" class="section">
+        <div class="page-header">
+          <h1>My Hobbies</h1>
+          <p>Things I love to do in my free time</p>
+        </div>
+        <div class="hobbies">
+          <div class="inventory-item epic">
+            <div class="item-rarity epic">Epic</div>
+            <div class="item-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="item-name">Coding</div>
+            <div class="item-description">
+              Building projects and learning new technologies
+            </div>
+          </div>
+          <div class="inventory-item legendary">
+            <div class="item-rarity legendary">Legendary</div>
+            <div class="item-icon">
+              <i class="fas fa-gamepad"></i>
+            </div>
+            <div class="item-name">Gaming</div>
+            <div class="item-description">
+              Strategic thinking and problem solving
+            </div>
+          </div>
+          <div class="inventory-item rare">
+            <div class="item-rarity rare">Rare</div>
+            <div class="item-icon">
+              <i class="fas fa-music"></i>
+            </div>
+            <div class="item-name">Music</div>
+            <div class="item-description">
+              Listening to various genres and discovering new artists
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3: Birthday -->
+      <section id="birthday" class="section">
+        <div class="page-header">
+          <h1>🎂 My Birthday 🎂</h1>
+          <p>Visit my special birthday page to send me a wish!</p>
+        </div>
+        <div class="center">
+          <a href="birthday.html" class="btn glow-effect"
+            >Visit Birthday Page</a
+          >
+        </div>
+      </section>
+
+      <!-- Section 4: Contact Us -->
+      <section id="contact" class="section">
+        <div class="contact-us">
+          <div class="page-header">
+            <h1>Contact Me</h1>
+            <p>Let's get in touch and work together</p>
+          </div>
+          <form class="contact-form">
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Name"
+              required
+            />
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              id="subject"
+              placeholder="Subject"
+              required
+            />
+            <textarea
+              class="form-control"
+              id="message"
+              placeholder="Message"
+              rows="5"
+              required
+            ></textarea>
+            <button type="submit" class="btn glow-effect">Send Message</button>
+          </form>
+          <div class="social-media">
+            <div class="social-icons">
+              <a href="#" class="contact-link">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="#" class="contact-link">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="contact-link">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#" class="contact-link">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="contact-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 5: Countries Slider -->
+      <section id="countries" class="section">
+        <div class="page-header">
+          <h1>Countries I Want to Visit</h1>
+          <p>Dream destinations around the world</p>
+        </div>
+        <div class="slider-container">
+          <div class="css-slider">
+            <div class="css-slide">
+              <img
+                src="images/Your-ultimate-guide-to-Tokyo-Japan1.jpg"
+                alt="Japan"
+              />
+              <div class="country-name">Japan</div>
+            </div>
+            <div class="css-slide">
+              <img src="images/canada.png" alt="Canada" />
+              <div class="country-name">Canada</div>
+            </div>
+            <div class="css-slide">
+              <img src="images/norway.png" alt="Norway" />
+              <div class="country-name">Norway</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 6: CV -->
+      <section id="cv" class="section">
+        <div class="cv">
+          <div class="page-header">
+            <h1>My CV</h1>
+            <p>Professional background and skills</p>
+          </div>
+          <div class="cv-content">
+            <div class="cv-section personal-info">
+              <h2>Personal Information</h2>
+              <div class="info-grid">
+                <div class="info-item">
+                  <i class="fas fa-user"></i> Maryam Tarek
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-envelope"></i> mariamtarek2233@gmail.com
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-phone"></i> +201203311425
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-map-marker-alt"></i> Cairo, Egypt
+                </div>
+                <div class="info-item">
+                  <i class="fab fa-github"></i> MaryamTarek03
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-code"></i>
+                  <strong>CodeForces & LeetCode:</strong> MaryamTarek03
+                </div>
+              </div>
+            </div>
+
+            <div class="cv-section education">
+              <h2>Education</h2>
+              <div class="education-item">
+                <h3>Computer Science - Bachelor's Degree</h3>
+                <p class="university">Benha University</p>
+                <p class="duration">2022 - 2026</p>
+                <p><strong>GPA:</strong> 3.86</p>
+                <p>
+                  <strong>Relevant Courses:</strong> OOP, Data Structures,
+                  Algorithms, Logic Design, Computer Architecture, Databases
+                </p>
+              </div>
+            </div>
+
+            <div class="cv-section experience">
+              <h2>Experience</h2>
+              <div class="experience-item">
+                <h3>ITI .NET Fullstack Program</h3>
+                <p class="company">Information Technology Institute (ITI)</p>
+                <p class="duration">1-month intensive program</p>
+                <ul>
+                  <li>Completed ITI's 1-month .NET Fullstack program</li>
+                  <li>
+                    Collaborated in a team of 5 to deliver an e-commerce
+                    application
+                  </li>
+                  <li>Used C#, MVC, and PostgreSQL technologies</li>
+                  <li>
+                    Demonstrated strong teamwork and leadership in delivering
+                    projects on time
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="cv-section projects">
+              <h2>Projects</h2>
+              <div class="experience-item">
+                <h3>Game Library System</h3>
+                <p class="company">Laravel Project</p>
+                <ul>
+                  <li>
+                    <strong>Tools:</strong> PHP, MariaDB, MVC, Eloquent,
+                    Tailwind CSS, HTML
+                  </li>
+                  <li>
+                    Built a game collection manager with features for search
+                    filtering and personal collections
+                  </li>
+                </ul>
+              </div>
+              <div class="experience-item">
+                <h3>E-commerce Application</h3>
+                <p class="company">.NET Project</p>
+                <ul>
+                  <li>
+                    <strong>Tools:</strong> C#, MVC, Singleton, PostgreSQL,
+                    Bootstrap, Entity Framework
+                  </li>
+                  <li>
+                    Developed a functional e-commerce platform with product
+                    listing features
+                  </li>
+                  <li>Utilized Clean Architecture for maintainable code</li>
+                </ul>
+              </div>
+              <div class="experience-item">
+                <h3>Book Loan System</h3>
+                <p class="company">Python Project</p>
+                <ul>
+                  <li><strong>Tools:</strong> Custom Tkinter, SQLite, OOP</li>
+                  <li>
+                    Built a library management system for book loan tracking and
+                    reporting
+                  </li>
+                </ul>
+              </div>
+              <div class="experience-item">
+                <h3>Supermarket Management System</h3>
+                <p class="company">Java Project</p>
+                <ul>
+                  <li><strong>Tools:</strong> Java Swing, MySQL, OOP</li>
+                  <li>Created an app for inventory and sales management</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="cv-section skills">
+              <h2>Technical Skills</h2>
+              <div class="skills-grid">
+                <div class="skill-category">
+                  <h3>Programming Languages</h3>
+                  <div class="tech-inventory">
+                    <div class="inventory-item legendary">
+                      <div class="item-rarity legendary">Legendary</div>
+                      <div class="item-icon">
+                        <i class="fab fa-cuttlefish"></i>
+                      </div>
+                      <div class="item-name">C++</div>
+                    </div>
+                    <div class="inventory-item epic">
+                      <div class="item-rarity epic">Epic</div>
+                      <div class="item-icon"><i class="fab fa-java"></i></div>
+                      <div class="item-name">Java</div>
+                    </div>
+                    <div class="inventory-item epic">
+                      <div class="item-rarity epic">Epic</div>
+                      <div class="item-icon"><i class="fab fa-python"></i></div>
+                      <div class="item-name">Python</div>
+                    </div>
+                    <div class="inventory-item rare">
+                      <div class="item-rarity rare">Rare</div>
+                      <div class="item-icon"><i class="fas fa-code"></i></div>
+                      <div class="item-name">C#</div>
+                    </div>
+                    <div class="inventory-item rare">
+                      <div class="item-rarity rare">Rare</div>
+                      <div class="item-icon"><i class="fab fa-php"></i></div>
+                      <div class="item-name">PHP</div>
+                    </div>
+                    <div class="inventory-item common">
+                      <div class="item-rarity common">Common</div>
+                      <div class="item-icon"><i class="fab fa-js"></i></div>
+                      <div class="item-name">JavaScript</div>
+                    </div>
+                    <div class="inventory-item common">
+                      <div class="item-rarity common">Common</div>
+                      <div class="item-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                      </div>
+                      <div class="item-name">Dart</div>
+                    </div>
+                    <div class="inventory-item rare">
+                      <div class="item-rarity rare">Rare</div>
+                      <div class="item-icon">
+                        <i class="fas fa-database"></i>
+                      </div>
+                      <div class="item-name">SQL</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-category">
+                  <h3>Frameworks & Tools</h3>
+                  <div class="tech-inventory">
+                    <div class="inventory-item epic">
+                      <div class="item-rarity epic">Epic</div>
+                      <div class="item-icon">
+                        <i class="fab fa-laravel"></i>
+                      </div>
+                      <div class="item-name">Laravel</div>
+                    </div>
+                    <div class="inventory-item epic">
+                      <div class="item-rarity epic">Epic</div>
+                      <div class="item-icon"><i class="fas fa-code"></i></div>
+                      <div class="item-name">.NET</div>
+                    </div>
+                    <div class="inventory-item rare">
+                      <div class="item-rarity rare">Rare</div>
+                      <div class="item-icon"><i class="fas fa-fire"></i></div>
+                      <div class="item-name">Firebase</div>
+                    </div>
+                    <div class="inventory-item legendary">
+                      <div class="item-rarity legendary">Legendary</div>
+                      <div class="item-icon">
+                        <i class="fab fa-git-alt"></i>
+                      </div>
+                      <div class="item-name">Git</div>
+                    </div>
+                    <div class="inventory-item rare">
+                      <div class="item-rarity rare">Rare</div>
+                      <div class="item-icon">
+                        <i class="fas fa-database"></i>
+                      </div>
+                      <div class="item-name">MongoDB</div>
+                    </div>
+                    <div class="inventory-item common">
+                      <div class="item-rarity common">Common</div>
+                      <div class="item-icon">
+                        <i class="fas fa-palette"></i>
+                      </div>
+                      <div class="item-name">Tailwind CSS</div>
+                    </div>
+                    <div class="inventory-item common">
+                      <div class="item-rarity common">Common</div>
+                      <div class="item-icon">
+                        <i class="fab fa-bootstrap"></i>
+                      </div>
+                      <div class="item-name">Bootstrap</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-category">
+                  <h3>Other Skills</h3>
+                  <div class="tech-inventory">
+                    <div class="inventory-item epic">
+                      <div class="item-rarity epic">Epic</div>
+                      <div class="item-icon">
+                        <i class="fas fa-building"></i>
+                      </div>
+                      <div class="item-name">Clean Architecture</div>
+                    </div>
+                    <div class="inventory-item rare">
+                      <div class="item-rarity rare">Rare</div>
+                      <div class="item-icon">
+                        <i class="fas fa-project-diagram"></i>
+                      </div>
+                      <div class="item-name">Database Design</div>
+                    </div>
+                    <div class="inventory-item epic">
+                      <div class="item-rarity epic">Epic</div>
+                      <div class="item-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                      </div>
+                      <div class="item-name">RESTful APIs</div>
+                    </div>
+                    <div class="inventory-item legendary">
+                      <div class="item-rarity legendary">Legendary</div>
+                      <div class="item-icon"><i class="fas fa-brain"></i></div>
+                      <div class="item-name">Problem Solving</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cv-section activities">
+              <h2>Activities & Achievements</h2>
+              <div class="experience-item">
+                <h3>Competitive Programming</h3>
+                <ul>
+                  <li>
+                    Ranked in top 15% in ECPC (70+ college-level participants)
+                    and (210+ total participants) in first year
+                  </li>
+                  <li>Certificate received (August 2023)</li>
+                  <li>
+                    Solved 500+ problems using C++ on Codeforces & LeetCode
+                    (MaryamTarek03)
+                  </li>
+                </ul>
+              </div>
+              <div class="experience-item">
+                <h3>GDSC & IEEE Participation</h3>
+                <ul>
+                  <li>
+                    Won 1st place in GDSC Flutter Bootcamp final contest,
+                    outperforming 50+ participants
+                  </li>
+                  <li>
+                    Participated in GDSC Bootcamps, focusing on Flutter, Data
+                    Analysis, and Web Development
+                  </li>
+                  <li>
+                    Participated in IEEE seasons and events, focusing on Flutter
+                    and Frontend
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="cv-section soft-skills">
+              <h2>Soft Skills & Languages</h2>
+              <div class="info-grid">
+                <div class="info-item">
+                  <strong>Soft Skills:</strong> Fast-Learner, Leadership,
+                  Problem-solving, Teamwork, Adaptability
+                </div>
+                <div class="info-item">
+                  <strong>Languages:</strong> Arabic (Native), English (C1)
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
